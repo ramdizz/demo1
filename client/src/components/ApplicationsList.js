@@ -67,7 +67,7 @@ const ApplicationsList = ({ userId, isAdmin }) => {
               <p>
                 <strong>Отзыв:</strong> {app.review || "Нет отзыва"}
               </p>
-              {app.status === "Обучение завершено" ? (
+              {app.status === "Мероприятие завершено" ? (
                 <div>
                   <textarea
                     placeholder="Ваш отзыв о качестве образовательных услуг"
